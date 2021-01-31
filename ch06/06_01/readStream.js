@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-const readStream = fs.createReadStream("./assets/lorum-ipsum.md", "UTF-8");
+const readStream = fs.createReadStream('./assets/lorum-ipsum.md', "UTF-8");
 
 let fileTxt = "";
 
